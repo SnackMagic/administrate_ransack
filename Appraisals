@@ -33,3 +33,12 @@ end
 appraise 'rails70-administrate' do # latest administrate
   gem 'rails', '~> 7.0.0'
 end
+
+appraise 'rails71-administrate018' do
+  gem 'administrate', '~> 0.18.0'
+  gem 'rails', '~> 7.1.0'
+end
+
+appraise 'rails71-administrate' do # latest adminstrate
+  gem 'rails', '~> 7.1.0'
+end
