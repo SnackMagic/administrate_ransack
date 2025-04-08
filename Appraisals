@@ -28,3 +28,10 @@ appraise 'rails71-administrate' do # latest administrate
   gem 'ransack', '~> 4.1', '>= 4.1.1'
   gem 'sqlite3', '~> 1.3'
 end
+
+appraise 'rails72-administrate' do # latest administrate
+  gem 'ffi', '1.15.5'
+  gem 'rails', '~> 7.2.2.1'
+  gem 'ransack', '~> 4.3.0'
+  gem 'sqlite3', '~> 1.3'
+end
